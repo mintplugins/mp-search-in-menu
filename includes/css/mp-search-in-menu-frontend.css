@@ -1,0 +1,34 @@
+.mp-search-in-menu form input{
+	padding:0 3px 0 20px;
+	opacity: 0;
+	width: 0;
+	border:none;
+	
+	-webkit-transition: opacity .4s ease-in-out, width .4s ease-in-out;
+	-moz-transition: opacity .4s ease-in-out, width .4s ease-in-out;
+	-ms-transition: opacity .4s ease-in-out, width .4s ease-in-out;
+	-o-transition: opacity .4s ease-in-out, width .4s ease-in-out;
+	transition: opacity .4s ease-in-out, width .4s ease-in-out;
+}
+.mp-search-in-menu form:before{
+	padding:0px;
+	position: absolute;
+	left: 5px;
+	z-index: 20;
+	font-family: 'fontawesome';
+	content: "\f002";
+	speak: none;
+		
+	-webkit-transition: color .4s ease-in-out;
+	-moz-transition: color .4s ease-in-out;
+	-ms-transition: color .4s ease-in-out;
+	-o-transition: color .4s ease-in-out;
+	transition: color .4s ease-in-out;
+}
+.mp-search-in-menu form:hover:before{
+	color:#CCC;
+}
+.mp-search-in-menu form:hover input{
+	opacity:1;
+	width:100px;
+}
