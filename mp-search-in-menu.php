@@ -3,7 +3,7 @@
 Plugin Name: MP Search In Menu
 Plugin URI: http://moveplugins.com
 Description: Show a magnifying glass in your menu which turns into a search bar on roll-over. Purely CSS powered.
-Version: 1.0.0.0
+Version: 1.0.0.1
 Author: Move Plugins
 Author URI: http://moveplugins.com
 Text Domain: mp_search_in_menu
